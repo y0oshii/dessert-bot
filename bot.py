@@ -3,6 +3,7 @@ from aiogram import Bot, Dispatcher
 from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from aiogram.filters import CommandStart
 
+# TOKEN хранится в config.py (не добавляется в репозиторий)
 from config import TOKEN
 from recipes import recipes
 
